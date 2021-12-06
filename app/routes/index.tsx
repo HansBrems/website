@@ -1,7 +1,9 @@
 export default function IndexRoute() {
   return (
     <main>
-      <h1>Hello world!</h1>
+      <h3>Hello world!</h3>
+
+      <p>Lorem Ipsum</p>
     </main>
   )
 }
