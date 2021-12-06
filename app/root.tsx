@@ -1,8 +1,9 @@
-import type { LinksFunction } from "remix";
+import type { LinksFunction } from 'remix';
 import { Links, LiveReload, Meta, Outlet, Scripts } from 'remix';
 
-import resetStylesUrl from "~/styles/reset.css";
-import smallStylesUrl from "~/styles/small.css";
+import resetStylesUrl from '~/styles/reset.css';
+import variablesUrl from '~/styles/variables.css';
+import smallStylesUrl from '~/styles/small.css';
 
 import { Layout, links as layoutLinks } from '~/components/layout/layout';
 
@@ -31,6 +32,7 @@ export let links: LinksFunction = () => {
     },
     ...layoutLinks(),
     { rel: "stylesheet", href: resetStylesUrl },
+    { rel: "stylesheet", href: variablesUrl },
     {
       rel: "stylesheet",
       href: smallStylesUrl
