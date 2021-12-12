@@ -4,7 +4,7 @@
   --color-900: #fff;
   --color-700: rgba(255, 255, 255, 0.75);
   --color-500: rgba(255, 255, 255, 0.5);
-  --color-accent: #ffc933;
+  --color-accent: rgb(212, 59, 92);
 
   --ff-body: 'Open Sans', sans-serif;
   --ff-title: 'IBM Plex Serif', serif;
