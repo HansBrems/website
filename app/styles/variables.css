@@ -9,6 +9,7 @@
   --ff-body: 'Open Sans', Verdana, Tahoma, Helvetica, sans-serif;
   --ff-title: 'IBM Plex Serif', Georgia, 'Times New Roman', Times, serif;
 
+  /* These sizes come from modularscale.com using the perfect fourth scale */
   --fs-base: 19px; /* 1.3125rem; */
   --fs-m: 23px;
   --fs-l: 37px;
