@@ -12,7 +12,7 @@ export function Header() {
   return (
     <header className="header">
       <Avatar />
-      <Navigation />
+      {/* <Navigation /> */}
     </header>
   );
 }
