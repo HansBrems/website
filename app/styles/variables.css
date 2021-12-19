@@ -21,7 +21,7 @@
     (line height & margin)
     - Base font size: 19px
     - Base line height: 33.25px
-    - Target font sizes: 23, 37, 57
+    - Target font sizes: 21, 27, 34
   */
   --fs-base: 19px; /* 1.3125rem; */
   --fw-base: 300;
