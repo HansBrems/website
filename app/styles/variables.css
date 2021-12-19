@@ -9,11 +9,37 @@
   --ff-body: 'Open Sans', Verdana, Tahoma, Helvetica, sans-serif;
   --ff-title: 'IBM Plex Serif', Georgia, 'Times New Roman', Times, serif;
 
-  /* These sizes come from modularscale.com using the major third scale */
-  --fs-base: 19px; /* 1.3125rem; */
-  --fs-m: 1.25em; /* 23px */
-  --fs-l: 1.953em; /* 37px */
-  --fs-xl: 3.052em; /* 57px */
-
   --fw-base: 300;
+
+  /*
+    Type scale: type-scale.com
+    (font size)
+    - Scale: major second scale
+    - Base font size: 19px
+
+    Vertical rhythm: drewish.com/tools/vertical-rhythm
+    (line height & margin)
+    - Base font size: 19px
+    - Base line height: 33.25px
+    - Target font sizes: 23, 37, 57
+  */
+  --fs-base: 17px; /* 1.3125rem; */
+  --fw-base: 300;
+  --lh-base: 1.7368em; /* 33px */
+  --margin-base: 0 0 1.7368em 0;
+
+  --fs-m: 1.1053em; /* 21px */
+  --fw-m: 400;
+  --lh-m: 1.5714em; /* 33px */
+  --margin-m: 1.5714em 0 0 0;
+
+  --fs-l: 1.4211em; /* 27px */
+  --fw-l: 100;
+  --lh-l: 1.2222em; /* 33px */
+  --margin-l: 1.2222em 0 0 0;
+
+  --fs-xl: 1.7895em; /* 34px */
+  --fw-xl: 400;
+  --lh-xl: 1.9412em; /* 66px */
+  --margin-xl: 0.9706em 0 0 0;
 }

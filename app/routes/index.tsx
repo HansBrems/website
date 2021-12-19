@@ -1,9 +1,9 @@
 export default function IndexRoute() {
   return (
-    <main>
-      <h1>Title h1</h1>
-      <h2>Title h2</h2>
-      <h3>Title h3</h3>
+    <>
+      <h1>Title</h1>
+      <h2>Subtitle</h2>
+      <h3>Header</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Scelerisque mauris
@@ -277,6 +277,6 @@ export default function IndexRoute() {
         et. Nulla pellentesque dignissim enim sit amet venenatis urna cursus.
         Tincidunt arcu non sodales neque sodales.
       </p>
-    </main>
+    </>
   );
 }
