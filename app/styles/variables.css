@@ -23,7 +23,7 @@
     - Base line height: 33.25px
     - Target font sizes: 23, 37, 57
   */
-  --fs-base: 17px; /* 1.3125rem; */
+  --fs-base: 19px; /* 1.3125rem; */
   --fw-base: 300;
   --lh-base: 1.7368em; /* 33px */
   --margin-base: 0 0 1.7368em 0;
