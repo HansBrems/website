@@ -86,7 +86,7 @@ h2 {
   text-align: center;
 
   position: relative;
-  top: -33.25px;
+  top: -45px;
 }
 
 h3 {
@@ -96,6 +96,9 @@ h3 {
   font-weight: var(--fw-m);
   line-height: var(--lh-m);
   margin: var(--margin-m);
+
+  position: relative;
+  top: -33.25px;
 }
 
 p {

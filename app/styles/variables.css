@@ -28,15 +28,15 @@
   --lh-base: 1.7368em; /* 33px */
   --margin-base: 0 0 1.7368em 0;
 
-  --fs-m: 1.1053em; /* 21px */
+  --fs-m: 1.4211em; /* 27px */
   --fw-m: 400;
-  --lh-m: 1.5714em; /* 33px */
-  --margin-m: 1.5714em 0 0 0;
+  --lh-m: 1.2222em; /* 33px */
+  --margin-m: 1.2222em 0 0 0;
 
-  --fs-l: 1.4211em; /* 27px */
+  --fs-l: 1.1053em; /* 21px */
   --fw-l: 100;
-  --lh-l: 1.2222em; /* 33px */
-  --margin-l: 1.2222em 0 0 0;
+  --lh-l: 1.5714em; /* 33px */
+  --margin-l: 1.5714em 0 0 0;
 
   --fs-xl: 1.7895em; /* 34px */
   --fw-xl: 400;
