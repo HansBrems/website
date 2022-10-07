@@ -1,9 +1,9 @@
 :root {
-  --bg-900: rgb(37, 37, 37);
+  --bg-900: rgba(255, 255, 255, 0.9);
 
-  --color-900: #fff;
-  --color-700: rgba(255, 255, 255, 0.75);
-  --color-500: rgba(255, 255, 255, 0.5);
+  --color-900: #000;
+  --color-700: rgba(0, 0, 0, 0.75);
+  --color-500: rgba(0, 0, 0, 0.5);
   --color-accent: rgb(212, 59, 92);
 
   --ff-body: 'Open Sans', Verdana, Tahoma, Helvetica, sans-serif;
