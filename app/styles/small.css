@@ -108,3 +108,13 @@ p {
   line-height: var(--lh-base);
   margin: var(--margin-base);
 }
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-accent-light);
+}

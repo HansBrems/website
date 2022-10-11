@@ -5,6 +5,7 @@
   --color-700: rgba(0, 0, 0, 0.75);
   --color-500: rgba(0, 0, 0, 0.5);
   --color-accent: rgb(212, 59, 92);
+  --color-accent-light: rgb(212, 59, 92, 0.6);
 
   --ff-body: 'Open Sans', Verdana, Tahoma, Helvetica, sans-serif;
   --ff-title: 'IBM Plex Serif', Georgia, 'Times New Roman', Times, serif;
