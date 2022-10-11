@@ -31,7 +31,8 @@
   --fs-m: 1.4211em; /* 27px */
   --fw-m: 400;
   --lh-m: 1.2222em; /* 33px */
-  --margin-m: 1.2222em 0 0 0;
+  /* Todo: check if this breaks vertical rhythm */
+  --margin-m: 1.2222em 0 1.2222em 0;
 
   --fs-l: 1.1053em; /* 21px */
   --fw-l: 100;

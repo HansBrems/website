@@ -6,9 +6,8 @@ export function Brand() {
   return (
     <div className="root">
       <div>
-        <div className="title">
-          Longville <span className="subtitle">Software</span>
-        </div>
+        <div className="title">Longville</div>
+        <div className="subtitle">Software</div>
       </div>
     </div>
   );
