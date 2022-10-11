@@ -98,7 +98,8 @@ h3 {
   margin: var(--margin-m);
 
   position: relative;
-  top: -33.25px;
+  /* Todo: check if this breaks vertical rhythm */
+  /* top: -33.25px; */
 }
 
 p {
