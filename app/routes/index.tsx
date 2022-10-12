@@ -8,8 +8,8 @@ export default function IndexRoute() {
         I'm a freelance software developer living in Langdorp, Belgium. I help
         companies build software that empowers users and facilitates or
         automates business processes. My focus is on keeping things as simple as
-        possible while providing a satisfying experience for the user. To get an
-        idea of where I've worked, please check out my{' '}
+        possible while providing a satisfying user experience. To get an idea of
+        where I've worked, please check out my{' '}
         <a href="https://www.linkedin.com/in/hansbrems" target="_blank">
           Linked-In page
         </a>
