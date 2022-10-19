@@ -5,7 +5,7 @@ export default function IndexRoute() {
 
       <h3>About Me</h3>
       <p>
-        I'm a freelancer software developer living in Langdorp, Belgium. I help
+        I'm a freelance software developer living in Langdorp, Belgium. I help
         companies build software that empowers users and facilitates or
         automates business processes. My focus is on keeping things as simple as
         possible while providing a satisfying user experience. To get an idea of
