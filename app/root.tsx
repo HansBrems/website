@@ -1,5 +1,5 @@
-import type { LinksFunction } from 'remix';
-import { Links, LiveReload, Meta, Outlet, Scripts } from 'remix';
+import type { LinksFunction } from '@remix-run/node';
+import { Links, LiveReload, Meta, Scripts } from '@remix-run/react';
 
 import resetStylesUrl from '~/styles/reset.css';
 import variablesUrl from '~/styles/variables.css';
@@ -31,12 +31,12 @@ export let links: LinksFunction = () => {
       crossOrigin: 'anonymous',
     },
     ...layoutLinks(),
-    { rel: "stylesheet", href: resetStylesUrl },
-    { rel: "stylesheet", href: variablesUrl },
+    { rel: 'stylesheet', href: resetStylesUrl },
+    { rel: 'stylesheet', href: variablesUrl },
     {
-      rel: "stylesheet",
-      href: smallStylesUrl
-    }
+      rel: 'stylesheet',
+      href: smallStylesUrl,
+    },
   ];
 };
 
@@ -52,9 +52,7 @@ export default function App() {
       <body>
         <Layout />
         <Scripts />
-        {process.env.NODE_ENV === "development" ? (
-          <LiveReload />
-        ) : null}
+        {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
       </body>
     </html>
   );

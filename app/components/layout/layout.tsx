@@ -1,4 +1,4 @@
-import { Outlet } from 'remix';
+import { Outlet } from '@remix-run/react';
 import { Header, links as headerLinks } from '../header/header';
 import styles from './layout.css';
 
