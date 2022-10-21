@@ -109,6 +109,12 @@ p {
   margin: var(--margin-base);
 }
 
+pre {
+  font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+}
+
 a {
   color: var(--color-accent);
   text-decoration: none;
