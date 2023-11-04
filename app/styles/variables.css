@@ -24,23 +24,24 @@
     - Target font sizes: 21, 27, 34
   */
   --fs-base: 19px; /* 1.3125rem; */
-  --fs-m: 1.4211em; /* 27px */
-  --fs-l: 1.1053em; /* 21px */
-  --fs-xl: 1.7895em; /* 34px */
-
   --fw-base: 300;
-  --fw-m: 400;
-  --fw-l: 100;
-  --fw-xl: 400;
-
   --lh-base: 1.7368em; /* 33px */
-  --lh-m: 1.2222em; /* 33px */
-  --lh-l: 1.5714em; /* 33px */
-  --lh-xl: 1.9412em; /* 66px */
-
   --margin-base: 0 0 1.7368em 0;
-  /* Todo: check if this breaks vertical rhythm */
+
+  --fs-m: 1.4211em; /* 27px */
+  --fw-m: 400;
+  --lh-m: 1.2222em; /* 33px */
   --margin-m: 1.2222em 0 1.2222em 0;
+
+  --fs-l: 1.1053em; /* 21px */
+  --fw-l: 100;
+  --lh-l: 1.5714em; /* 33px */
   --margin-l: 1.5714em 0 0 0;
+
+  --fs-xl: 1.7895em; /* 34px */
+  --fw-xl: 400;
+  --lh-xl: 1.9412em; /* 66px */
   --margin-xl: 0.9706em 0 0 0;
+
+  /* Todo: check if this breaks vertical rhythm */
 }

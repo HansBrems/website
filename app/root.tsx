@@ -1,11 +1,8 @@
+import globalStylesUrl from '~/styles/global.css';
+import tailwindStylesUrl from '~/styles/tailwind.css';
 import type { LinksFunction } from '@remix-run/node';
 import { Links, LiveReload, Meta, Scripts } from '@remix-run/react';
-
-import resetStylesUrl from '~/styles/reset.css';
-import variablesUrl from '~/styles/variables.css';
-import smallStylesUrl from '~/styles/small.css';
-
-import { Layout, links as layoutLinks } from '~/components/layout/layout';
+import { Layout } from '~/components/layout';
 
 export let links: LinksFunction = () => {
   return [
@@ -30,12 +27,13 @@ export let links: LinksFunction = () => {
       type: 'font/truetype',
       crossOrigin: 'anonymous',
     },
-    ...layoutLinks(),
-    { rel: 'stylesheet', href: resetStylesUrl },
-    { rel: 'stylesheet', href: variablesUrl },
     {
       rel: 'stylesheet',
-      href: smallStylesUrl,
+      href: tailwindStylesUrl,
+    },
+    {
+      rel: 'stylesheet',
+      href: globalStylesUrl,
     },
   ];
 };
@@ -49,7 +47,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="text-base">
         <Layout />
         <Scripts />
         {process.env.NODE_ENV === 'development' ? <LiveReload /> : null}
