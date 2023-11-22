@@ -1,5 +1,6 @@
 import styles from './footer.css';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 export const links = () => [{ rel: 'stylesheet', href: styles }];
 
 export interface SocialMediaLinkProps {
@@ -24,8 +25,8 @@ export function Footer() {
         to="https://www.linkedin.com/in/hansbrems"
       />
       <SocialMediaLink
-        icon={<FaTwitter />}
-        to="https://twitter.com/hansbrems"
+        icon={<FaSquareXTwitter />}
+        to="https://twitter.com/longvillesw"
       />
     </footer>
   );
