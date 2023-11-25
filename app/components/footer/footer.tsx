@@ -19,15 +19,20 @@ export function SocialMediaLink({ icon, to }: SocialMediaLinkProps) {
 export function Footer() {
   return (
     <footer className="app-footer">
-      <SocialMediaLink icon={<FaGithub />} to="https://github.com/HansBrems" />
-      <SocialMediaLink
-        icon={<FaLinkedin />}
-        to="https://www.linkedin.com/in/hansbrems"
-      />
-      <SocialMediaLink
-        icon={<FaSquareXTwitter />}
-        to="https://twitter.com/longvillesw"
-      />
+      <div>
+        <SocialMediaLink
+          icon={<FaGithub />}
+          to="https://github.com/HansBrems"
+        />
+        <SocialMediaLink
+          icon={<FaLinkedin />}
+          to="https://www.linkedin.com/in/hansbrems"
+        />
+        <SocialMediaLink
+          icon={<FaSquareXTwitter />}
+          to="https://twitter.com/longvillesw"
+        />
+      </div>
     </footer>
   );
 }
