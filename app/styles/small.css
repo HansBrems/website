@@ -75,7 +75,7 @@ h1 {
 }
 
 h2 {
-  color: var(--color-500);
+  color: var(--color-700);
 
   font-size: var(--fs-l);
   font-weight: var(--fw-l);

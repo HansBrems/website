@@ -12,7 +12,7 @@ export const links = () => [
 export function Layout() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main className="container">
         <Outlet />
       </main>
