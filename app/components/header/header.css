@@ -1,11 +1,13 @@
 .header {
   background: radial-gradient(
     150px 150px at 0% 0%,
-    rgb(212, 59, 92) 0%,
-    rgb(66, 39, 129) 50vw
+    var(--color-accent),
+    var(--color-accent-light) 50vw
   );
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  height: 64px;
 }

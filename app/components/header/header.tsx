@@ -13,8 +13,8 @@ export const links = () => [
 export function Header() {
   return (
     <header className="header">
-      <Brand />
-      <Avatar />
+      {/* <Brand /> */}
+      {/* <Avatar /> */}
       {/* <Navigation /> */}
     </header>
   );
