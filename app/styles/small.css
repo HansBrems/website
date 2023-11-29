@@ -1,7 +1,14 @@
 @font-face {
   font-family: 'Open Sans';
-  src: url('/fonts/NotoSans.woff2') format('woff2');
+  src: url('/fonts/NotoSans-Regular.woff2') format('woff2');
   font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/fonts/NotoSans-Thin.woff2') format('woff2');
+  font-weight: 300;
   font-display: swap;
 }
 
@@ -103,6 +110,8 @@ h3 {
 
 p {
   color: var(--color-700);
+
+  font-weight: 400;
 
   line-height: var(--lh-base);
   margin: var(--margin-base);
