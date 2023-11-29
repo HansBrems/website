@@ -4,6 +4,8 @@ import { Links, LiveReload, Meta, Scripts } from '@remix-run/react';
 import resetStylesUrl from '~/styles/reset.css';
 import variablesUrl from '~/styles/variables.css';
 import smallStylesUrl from '~/styles/small.css';
+import mediumStylesUrl from '~/styles/medium.css';
+import largeStylesUrl from '~/styles/large.css';
 
 import { Layout, links as layoutLinks } from '~/components/layout/layout';
 
@@ -36,6 +38,14 @@ export let links: LinksFunction = () => {
     {
       rel: 'stylesheet',
       href: smallStylesUrl,
+    },
+    {
+      rel: 'stylesheet',
+      href: mediumStylesUrl,
+    },
+    {
+      rel: 'stylesheet',
+      href: largeStylesUrl,
     },
   ];
 };
